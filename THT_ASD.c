@@ -24,7 +24,6 @@ struct Ticket {
 typedef struct Ticket ticket;
 ticket *head = NULL;
 ticket *tail = NULL;
-ticket *current;
 
 void gotoxy(int x, int y) {
 	
